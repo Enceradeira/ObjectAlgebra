@@ -2,16 +2,16 @@
 
 namespace ObjectAlgebra.Polymorphismus
 {
-	public class Lit<T> : IExp<T>
+	public class Lit : IExp
 	{
-		private readonly T _value;
+		private readonly int _value;
 
-		public Lit(T value)
+		public Lit(int value)
 		{
 			_value = value;
 		}
 
-		public T Eval()
+		public int Eval()
 		{
 			return _value;
 		}

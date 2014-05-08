@@ -2,9 +2,9 @@
 
 namespace ObjectAlgebra.VisitorPattern
 {
-	public interface IVisitor<T, TResult>
+	public interface IVisitor<T>
 	{
-		TResult VisitAdd(TResult left, TResult right);
-		TResult VisitLit(Lit<T> lit);
+		T VisitAdd(T left, T right);
+		T VisitLit(Lit lit);
 	}
 }

@@ -2,9 +2,9 @@ using System;
 
 namespace ObjectAlgebra.Polymorphismus
 {
-	public interface IExp<out T>
+	public interface IExp
 	{
-		T Eval();
+		int Eval();
 		string Print();
 	}
 }

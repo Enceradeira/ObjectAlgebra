@@ -2,8 +2,8 @@
 
 namespace ObjectAlgebra.VisitorPattern
 {
-	public interface IExp<T>
+	public interface IExp
 	{
-		TResult Accept<TResult>(IVisitor<T, TResult> visitor);
+		T Accept<T>(IVisitor<T> visitor);
 	}
 }

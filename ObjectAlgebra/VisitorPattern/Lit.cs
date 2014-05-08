@@ -2,21 +2,21 @@
 
 namespace ObjectAlgebra.VisitorPattern
 {
-	public class Lit<T> : IExp<T>
+	public class Lit : IExp
 	{
-		private readonly T _value;
+		private readonly int _value;
 
-		public Lit(T value)
+		public Lit(int value)
 		{
 			_value = value;
 		}
 
-		public T Value
+		public int Value
 		{
 			get { return _value; }
 		}
 
-		public TResult Accept<TResult>(IVisitor<T, TResult> eval)
+		public T Accept<T>(IVisitor<T> eval)
 		{
 			return eval.VisitLit(this);
 		}

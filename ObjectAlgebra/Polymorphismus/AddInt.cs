@@ -2,13 +2,13 @@
 
 namespace ObjectAlgebra.Polymorphismus
 {
-	public class AddInt: IExp<int>
+	public class AddInt : IExp
 	{
-		private readonly Lit<int> _left;
+		private readonly Lit _left;
 
-		private readonly Lit<int> _right;
+		private readonly Lit _right;
 
-		public AddInt(Lit<int> left, Lit<int> right)
+		public AddInt(Lit left, Lit right)
 		{
 			_left = left;
 			_right = right;

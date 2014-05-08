@@ -52,8 +52,6 @@
     <Compile Include="ObjectAlgebra\PrintAdd.cs" />
     <Compile Include="ObjectAlgebra\PrintExp.cs" />
     <Compile Include="ObjectAlgebra\PrintLit.cs" />
-    <Compile Include="Polymorphismus\AddDecimal.cs" />
-    <Compile Include="Polymorphismus\AddDecimalFixture.cs" />
     <Compile Include="Polymorphismus\AddIntFixture.cs" />
     <Compile Include="Polymorphismus\AddInt.cs" />
     <Compile Include="Polymorphismus\IExp.cs" />
@@ -62,9 +60,7 @@
     <Compile Include="VisitorPattern.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="VisitorPattern\Add.cs" />
-    <Compile Include="VisitorPattern\AddDecimalFixture.cs" />
     <Compile Include="VisitorPattern\AddIntFixture.cs" />
-    <Compile Include="VisitorPattern\DecimalEval.cs" />
     <Compile Include="VisitorPattern\IExp.cs" />
     <Compile Include="VisitorPattern\IntegerEval.cs" />
     <Compile Include="VisitorPattern\IVisitor.cs" />

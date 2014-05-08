@@ -2,19 +2,19 @@
 
 namespace ObjectAlgebra.VisitorPattern
 {
-	public class Add<T> : IExp<T>
+	public class Add : IExp
 	{
-		private readonly Lit<T> _left;
+		private readonly Lit _left;
 
-		private readonly Lit<T> _right;
+		private readonly Lit _right;
 
-		public Add(Lit<T> left, Lit<T> right)
+		public Add(Lit left, Lit right)
 		{
 			_left = left;
 			_right = right;
 		}
 
-		public TResult Accept<TResult>(IVisitor<T, TResult> visitor)
+		public T Accept<T>(IVisitor<T> visitor)
 		{
 			return visitor.VisitAdd(_left.Accept(visitor), _right.Accept(visitor));
 		}
