@@ -1,6 +1,6 @@
 using System;
 
-namespace ObjectAlgebra.PolymorphismusPattern
+namespace ObjectAlgebra.Polymorphismus
 {
 	public interface IExp<out T>
 	{

@@ -42,13 +42,13 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="PolymorphismusPattern\AddDecimal.cs" />
-    <Compile Include="PolymorphismusPattern\AddDecimalFixture.cs" />
-    <Compile Include="PolymorphismusPattern\AddIntFixture.cs" />
-    <Compile Include="PolymorphismusPattern\AddInt.cs" />
-    <Compile Include="PolymorphismusPattern\IExp.cs" />
-    <Compile Include="PolymorphismusPattern\Lit.cs" />
-    <Compile Include="PolymorphismusPattern\PolymorphismusPattern.cs" />
+    <Compile Include="Polymorphismus\AddDecimal.cs" />
+    <Compile Include="Polymorphismus\AddDecimalFixture.cs" />
+    <Compile Include="Polymorphismus\AddIntFixture.cs" />
+    <Compile Include="Polymorphismus\AddInt.cs" />
+    <Compile Include="Polymorphismus\IExp.cs" />
+    <Compile Include="Polymorphismus\Lit.cs" />
+    <Compile Include="Polymorphismus\PolymorphismusPattern.cs" />
     <Compile Include="VisitorPattern.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="VisitorPattern\Add.cs" />

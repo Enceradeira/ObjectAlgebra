@@ -1,7 +1,7 @@
 ﻿using System;
 using NUnit.Framework;
 
-namespace ObjectAlgebra.PolymorphismusPattern
+namespace ObjectAlgebra.Polymorphismus
 {
 	[TestFixture]
 	public class AddDecimalFixture
