@@ -7,7 +7,7 @@ namespace ObjectAlgebra.Polymorphismus
 	public class AddIntFixture
 	{
 		[Test]
-		public void Eval_ShouldAddToInteger()
+		public void Eval_ShouldAddTwoInteger()
 		{
 			var a = new Lit<int>(7);
 			var b = new Lit<int>(8);

@@ -7,7 +7,7 @@ namespace ObjectAlgebra.VisitorPattern
 	public class AddDecimalFixture
 	{
 		[Test]
-		public void Eval_ShouldAddToDecimal()
+		public void Eval_ShouldAddTwoDecimal()
 		{
 			var a = new Lit<decimal>(7.5m);
 			var b = new Lit<decimal>(2.1m);
