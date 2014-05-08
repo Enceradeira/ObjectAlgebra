@@ -13,5 +13,10 @@ namespace ObjectAlgebra.VisitorPattern
 		{
 			return lit.Value.ToString();
 		}
+
+		public string VisitSub(string left, string right)
+		{
+			return string.Format("{0}-{1}", left, right);
+		}
 	}
 }

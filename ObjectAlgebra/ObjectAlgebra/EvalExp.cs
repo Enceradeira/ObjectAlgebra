@@ -13,5 +13,10 @@ namespace ObjectAlgebra.ObjectAlgebra
 		{
 			return new EvalAdd(left, right);
 		}
+
+		public IEval CreateSub(IEval left, IEval right)
+		{
+			return new EvalSub(left, right);
+		}
 	}
 }

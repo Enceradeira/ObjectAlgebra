@@ -6,5 +6,6 @@ namespace ObjectAlgebra.VisitorPattern
 	{
 		T VisitAdd(T left, T right);
 		T VisitLit(Lit lit);
+		T VisitSub(T left, T right);
 	}
 }

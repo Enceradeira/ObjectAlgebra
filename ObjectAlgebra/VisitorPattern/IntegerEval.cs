@@ -13,5 +13,10 @@ namespace ObjectAlgebra.VisitorPattern
 		{
 			return lit.Value;
 		}
+
+		public int VisitSub(int left, int right)
+		{
+			return left - right;
+		}
 	}
 }

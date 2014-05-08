@@ -6,5 +6,6 @@ namespace ObjectAlgebra.ObjectAlgebra
 	{
 		T CreateLit(int n);
 		T CreateAdd(T left, T right);
+		T CreateSub(T left, T right);
 	}
 }

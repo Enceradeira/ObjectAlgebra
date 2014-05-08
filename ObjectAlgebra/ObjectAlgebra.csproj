@@ -46,17 +46,22 @@
     <Compile Include="ObjectAlgebra\EvalAdd.cs" />
     <Compile Include="ObjectAlgebra\EvalExp.cs" />
     <Compile Include="ObjectAlgebra\EvalLit.cs" />
+    <Compile Include="ObjectAlgebra\EvalSub.cs" />
     <Compile Include="ObjectAlgebra\IEval.cs" />
     <Compile Include="ObjectAlgebra\IExpFactory.cs" />
     <Compile Include="ObjectAlgebra\IPrint.cs" />
     <Compile Include="ObjectAlgebra\PrintAdd.cs" />
     <Compile Include="ObjectAlgebra\PrintExp.cs" />
     <Compile Include="ObjectAlgebra\PrintLit.cs" />
+    <Compile Include="ObjectAlgebra\PrintSub.cs" />
+    <Compile Include="ObjectAlgebra\SubIntFixture.cs" />
     <Compile Include="Polymorphismus\AddIntFixture.cs" />
     <Compile Include="Polymorphismus\AddInt.cs" />
     <Compile Include="Polymorphismus\IExp.cs" />
     <Compile Include="Polymorphismus\Lit.cs" />
     <Compile Include="Polymorphismus\PolymorphismusPattern.cs" />
+    <Compile Include="Polymorphismus\SubInt.cs" />
+    <Compile Include="Polymorphismus\SubIntFixture.cs" />
     <Compile Include="VisitorPattern.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="VisitorPattern\Add.cs" />
@@ -66,6 +71,8 @@
     <Compile Include="VisitorPattern\IVisitor.cs" />
     <Compile Include="VisitorPattern\Lit.cs" />
     <Compile Include="VisitorPattern\Print.cs" />
+    <Compile Include="VisitorPattern\Sub.cs" />
+    <Compile Include="VisitorPattern\SubIntFixture.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="packages.config" />

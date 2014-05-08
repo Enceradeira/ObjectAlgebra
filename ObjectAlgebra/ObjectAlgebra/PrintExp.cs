@@ -13,5 +13,10 @@ namespace ObjectAlgebra.ObjectAlgebra
 		{
 			return new PrintAdd(left, right);
 		}
+
+		public IPrint CreateSub(IPrint left, IPrint right)
+		{
+			return new PrintSub(left,right);
+		}
 	}
 }
