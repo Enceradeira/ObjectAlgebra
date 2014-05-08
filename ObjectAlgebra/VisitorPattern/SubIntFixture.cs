@@ -17,7 +17,7 @@ namespace ObjectAlgebra.VisitorPattern
 		}
 
 		[Test]
-		public void Print_ShouldPrintAddExpression()
+		public void Print_ShouldPrintExpression()
 		{
 			var a = new Lit(7);
 			var b = new Lit(8);

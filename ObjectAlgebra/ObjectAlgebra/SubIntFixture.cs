@@ -22,7 +22,7 @@ namespace ObjectAlgebra.ObjectAlgebra
 		}
 
 		[Test]
-		public void Print_ShouldPrintAddExpression()
+		public void Print_ShouldPrintExpression()
 		{
 			var sub = Sub7To8(new PrintExp());
 			Assert.That(sub.Print(), Is.EqualTo("7-8"));
