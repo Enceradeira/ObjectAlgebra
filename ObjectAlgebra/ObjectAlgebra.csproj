@@ -42,6 +42,16 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="ObjectAlgebra\AddIntFixture.cs" />
+    <Compile Include="ObjectAlgebra\EvalAdd.cs" />
+    <Compile Include="ObjectAlgebra\EvalExp.cs" />
+    <Compile Include="ObjectAlgebra\EvalLit.cs" />
+    <Compile Include="ObjectAlgebra\IEval.cs" />
+    <Compile Include="ObjectAlgebra\IExpFactory.cs" />
+    <Compile Include="ObjectAlgebra\IPrint.cs" />
+    <Compile Include="ObjectAlgebra\PrintAdd.cs" />
+    <Compile Include="ObjectAlgebra\PrintExp.cs" />
+    <Compile Include="ObjectAlgebra\PrintLit.cs" />
     <Compile Include="Polymorphismus\AddDecimal.cs" />
     <Compile Include="Polymorphismus\AddDecimalFixture.cs" />
     <Compile Include="Polymorphismus\AddIntFixture.cs" />
@@ -64,6 +74,7 @@
   <ItemGroup>
     <None Include="packages.config" />
   </ItemGroup>
+  <ItemGroup />
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
        Other similar extension points exist, see Microsoft.Common.targets.
